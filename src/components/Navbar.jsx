@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="bg-white text-[#936846] px-8 py-4 shadow-md fixed top-0 left-0 w-[100vw]">
+    <nav className="bg-white text-[#936846] px-8 py-4 shadow-md fixed top-0 left-0 w-[100vw] z-1">
       <div className="flex items-center justify-between max-w-7xl mx-auto">
         {/* Logo */}
         <div className="text-xl font-semibold tracking-wide cursor-pointer">J.P.Morgan</div>
